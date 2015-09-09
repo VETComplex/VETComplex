@@ -25,28 +25,37 @@
     font-size: 32px;
 }
 
+/* Footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 150px;
+}
 .footer {
-  margin: 10px;
-  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 130px;
+}
+.footer {
   color: #efefef;
   background-color: #71383D;
 }
-
 .footer a {
   color: #9af7fe;
 }
-
 @media only screen and (max-width: 768px) {
-  body { margin-bottom: 400px; }
-  .footer { height: 400px; }
+  body { margin-bottom: 150px; }
+  .footer { height: 150px; }
 }
 
-
-
-
-
-
-
+/* Navbar Styles
+-------------------------------------------------- */
 .navbar-custom {
     background-color:#71383D;
     color:#ffffff;
