@@ -3,7 +3,7 @@
     padding: 20px; 
     border: 2px solid #CCC; 
     margin-bottom: 20px; 
-    background-color:#FFF 
+    background-color:#FFF;
 }
 
 #map-container { 
@@ -71,4 +71,17 @@ body {
 }
 .navbar-custom .navbar-brand {
     color:#eeeeee;
+}
+
+/* Panel Styles
+-------------------------------------------------- */
+.panel-primary > .panel-heading {
+    background-image: none;
+    background-color: #71383D;
+    color: white;
+    border-color: #71383D;
+
+}
+.panel-primary {
+    border-color: #71383D;
 }
