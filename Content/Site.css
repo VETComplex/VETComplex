@@ -70,6 +70,10 @@ body {
     border-radius:0;
 }
 
+.navbar-custom .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
 .navbar-custom .navbar-nav > li > a {
     color:#fff;
 }
