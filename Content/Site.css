@@ -100,6 +100,10 @@ body {
 
 /* Header Styles
 -------------------------------------------------- */
+body {
+   padding-top:50px; /* Remove the space between nav and header */
+   margin-top: 0px; /* Remove the space between nav and header */
+}
 
 .header-center-image {
     margin: 0 auto;
