@@ -97,3 +97,16 @@ body {
 .panel-primary {
     border-color: #71383D;
 }
+
+/* Header Styles
+-------------------------------------------------- */
+
+.header-center-image {
+    margin: 0 auto;
+}
+
+.header-background {
+    background-image : url("./images/HeaderBackground.jpg");  
+    background-position : top left;  
+    background-repeat : repeat;   
+}
