@@ -1,0 +1,116 @@
+#map-outer {
+    height: 300px; 
+    padding: 20px; 
+    border: 2px solid #CCC; 
+    margin-bottom: 20px; 
+    background-color:#FFF;
+}
+
+#map-container { 
+    height: 400px 
+}
+
+@media all and (max-width: 991px) {
+    #map-outer  { 
+        height: 650px 
+    }
+}
+
+.float-section-right {
+    float:left;
+    padding: 10px;
+}
+
+.features .glyphicon {
+    font-size: 32px;
+}
+
+/* Footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 150px;
+  padding-top: 70px;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 130px;
+}
+.footer {
+  color: #efefef;
+  background-color: #71383D;
+}
+.footer a {
+  color: #9af7fe;
+}
+@media only screen and (max-width: 768px) {
+  body { margin-bottom: 150px; }
+  .footer { height: 150px; }
+}
+
+/* Navbar Styles
+-------------------------------------------------- */
+:target:before {
+  content:"";
+  display:block;
+  height:60px; /* fixed header height*/
+  margin:-60px 0 0; /* negative fixed header height */
+}
+
+.navbar-custom {
+    background-color:#71383D;
+    color:#ffffff;
+    border-radius:0;
+}
+
+.navbar-custom .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#fff;
+}
+.navbar-custom .navbar-nav > .active > a, .navbar-nav > .active > a:hover, .navbar-nav > .active > a:focus {
+    color: #ffffff;
+    background-color:transparent;
+}
+.navbar-custom .navbar-brand {
+    color:#eeeeee;
+}
+
+/* Panel Styles
+-------------------------------------------------- */
+.panel-primary > .panel-heading {
+    background-image: none;
+    background-color: #71383D;
+    color: white;
+    border-color: #71383D;
+
+}
+.panel-primary {
+    border-color: #71383D;
+}
+
+/* Header Styles
+-------------------------------------------------- */
+body {
+   padding-top:50px; /* Remove the space between nav and header */
+   margin-top: 0px; /* Remove the space between nav and header */
+}
+
+.header-center-image {
+    margin: 0 auto;
+}
+
+.header-background {
+    background-image : url("./images/HeaderBackground.jpg");  
+    background-position : top left;  
+    background-repeat : repeat;   
+}
